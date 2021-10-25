@@ -8,6 +8,8 @@ import { QuestionComponent } from './pages/question/question.component';
 import { ResultatsComponent } from './pages/resultats/resultats.component';
 import { ProfilComponent } from './pages/profil/profil.component';
 import { IdComponent } from './pages/id/id.component';
+import { AccueilComponent } from './pages/accueil/accueil.component';
+import { QuestionsPipe } from './systeme/pipes/questions.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { IdComponent } from './pages/id/id.component';
     QuestionComponent,
     ResultatsComponent,
     ProfilComponent,
-    IdComponent
+    IdComponent,
+    AccueilComponent,
+    QuestionsPipe
   ],
   imports: [
     BrowserModule,

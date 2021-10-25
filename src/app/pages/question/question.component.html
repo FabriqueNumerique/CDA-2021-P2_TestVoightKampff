@@ -1,1 +1,9 @@
-<p>question works!</p>
+<article>
+    <h3>{{ q.question }}</h3>
+    <ul>
+        <li *ngFor="let rep of q.reponses; let i=index">
+            <input type="checkbox" [value]="rep.score" [name]="i">
+            <label>{{ rep.enonce }}</label>
+        </li>
+    </ul>
+</article>

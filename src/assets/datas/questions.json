@@ -1,0 +1,47 @@
+[
+    {
+        "id":0,
+        "question":"Un collègue de travail vous apprend qu'il a malencontreusement écrasé un petit insecte. Quelle est votre réaction ?",
+        "reponses":[
+            {
+                "id":0,
+                "enonce":"Vous êtes infiniment triste",
+                "score":34
+            },{
+                "id":1,
+                "enonce":"Bof,ce n'était qu'un insecte",
+                "score":12.6
+            },{
+                "id":2,
+                "enonce":"Vous compatissez, mais au fond, vous vous en fichez un peu",
+                "score":14
+            },{
+                "id":3,
+                "enonce":"Tant mieux ! Vous detestez ces petites bêtes",
+                "score":2
+            }
+        ]
+    },{
+        "id":1,
+        "question":"Vous regardez un film à la télé. Soudainement une guêpe se pose sur votre bras et le remonte. Quelle sera votre réaction ?",
+        "reponses":[
+            {
+                "id":0,
+                "enonce":"Je l’écrase",
+                "score":"NA"
+            },{
+                "id":1,
+                "enonce":"Je l’éjecte",
+                "score":7
+            },{
+                "id":2,
+                "enonce":"je la savoure",
+                "score":13
+            },{
+                "id":3,
+                "enonce":"Je l’attrappe pour l’observer",
+                "score":23
+            }
+        ]
+    }
+]

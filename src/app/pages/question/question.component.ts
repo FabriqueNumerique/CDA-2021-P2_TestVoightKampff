@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-question',
@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuestionComponent implements OnInit {
 
-  constructor() { }
+  @Input() q:any; // La propriété Q est injectable depuis l'extérieur
+  
+  constructor() {
+    console.log(this.q);
+  }
 
   ngOnInit(): void {
   }
