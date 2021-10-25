@@ -1,8 +1,10 @@
 <section>
     <h2>Êtes-vous humain ?*</h2>
     <!-- Boucle sur le composant question et injection des données -->
-    <article *ngFor="let quest of questions" >
-        <app-question [q]="quest"></app-question>
+    <article *ngFor="let quest of questServ.questions" [ngSwitch]="quest.type">
+        <p>{{ quest.type }}</p>
+        <app-question-checkbox [q]="quest" *ngSwitchCase="'checkbox'"></app-question-checkbox>
+        <app-question-radio [q]="quest" *ngSwitchCase="'radio'"></app-question-radio>
     </article>
     <p>Toi y en a humain ?</p>
 </section>

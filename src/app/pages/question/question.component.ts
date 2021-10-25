@@ -1,19 +1,12 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-question',
-  templateUrl: './question.component.html',
-  styleUrls: ['./question.component.css']
+  templateUrl: './question.component.html'
 })
-export class QuestionComponent implements OnInit {
-
-  @Input() q:any; // La propriété Q est injectable depuis l'extérieur
+export class QuestionComponent {
+  /** Valeur récupérée dans le HTML à partir de la liste des questions */
+  @Input() q:any; // Récupérer les informations sur la question
   
-  constructor() {
-    console.log(this.q);
-  }
-
-  ngOnInit(): void {
-  }
-
+  constructor() { }
 }
