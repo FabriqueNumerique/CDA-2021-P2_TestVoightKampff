@@ -1,1 +1,8 @@
-<p>id works!</p>
+<section>
+    <form (ngSubmit)="authServ.getAuth()">
+        <input type="text" [(ngModel)]="authServ.auth.identifiant" (input)="showMeBaby()" required name="nawal" placeholder="Quel est le prénom de Nawal ?">
+        <input type="text" [(ngModel)]="authServ.auth.mdp" name="francisco" required minlength="4" placeholder="Tu me devras bientôt 5 litres de margarita">
+        <input type="submit">
+        <input type="reset">
+    </form>
+</section>

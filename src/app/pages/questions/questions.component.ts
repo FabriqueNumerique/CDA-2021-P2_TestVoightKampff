@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { QuestionsService } from '../../systeme/services/questions.service';
 
 @Component({
@@ -6,7 +6,7 @@ import { QuestionsService } from '../../systeme/services/questions.service';
   templateUrl: './questions.component.html',
   styleUrls: ['./questions.component.css']
 })
-export class QuestionsComponent implements OnInit {
+export class QuestionsComponent implements OnInit, OnDestroy {
   /**
    * 
    * @param questServ Pointeur vers le service avec des questions dedans
@@ -14,6 +14,11 @@ export class QuestionsComponent implements OnInit {
   constructor(public questServ:QuestionsService) { }
 
   ngOnInit(): void {
+    console.log(Math.round(4.2));
+  }
+  
+  ngOnDestroy(){
+
   }
 
 }

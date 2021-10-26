@@ -2,6 +2,7 @@
     {
         "id":0,
         "question":"Un collègue de travail vous apprend qu'il a malencontreusement écrasé un petit insecte. Quelle est votre réaction ?",
+        "type":"checkbox",
         "reponses":[
             {
                 "id":0,
@@ -24,6 +25,7 @@
     },{
         "id":1,
         "question":"Vous regardez un film à la télé. Soudainement une guêpe se pose sur votre bras et le remonte. Quelle sera votre réaction ?",
+        "type":"radio",
         "reponses":[
             {
                 "id":0,

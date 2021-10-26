@@ -1,0 +1,5 @@
+1 - Créer un service
+2 - Créer une interface pour le compte utilisateur
+3 - Connecter les données du formulaire (ngModel) au service (l'objet ID à l'intérieur)
+4 - Typer l'objet ID dans le service
+5 - Faire une fonction qui permet de valider la connexion
